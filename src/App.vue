@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <h1>Kana Matching Game</h1>
+    <!-- <h1>Kana Matching Game</h1> -->
     <KanaGame />
   </div>
 </template>

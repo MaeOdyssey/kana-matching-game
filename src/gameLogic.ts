@@ -1,6 +1,6 @@
 // src/gameLogic.ts
 
-// ✅ Unified name: renamed kanaMap → kanaData
+// Unified name: renamed kanaMap → kanaData
 export const kanaData = [
   { romaji: "a", character: "あ" },
   { romaji: "i", character: "い" },
@@ -14,7 +14,7 @@ export const kanaData = [
   { romaji: "ko", character: "こ" }
 ]
 
-// ✅ Returns a random kana item and shuffled options
+// Returns a random kana item and shuffled options
 export function getRandomKana() {
   const randomEntry = kanaData[Math.floor(Math.random() * kanaData.length)]
   const correctCharacter = randomEntry.character
@@ -35,7 +35,7 @@ export function getRandomKana() {
   }
 }
 
-// ✅ Simple answer check
+// Simple answer check
 export function checkKanaAnswer(selected: string, correct: string): boolean {
   return selected === correct
 }
