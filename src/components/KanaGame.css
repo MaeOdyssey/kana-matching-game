@@ -67,19 +67,31 @@
 }
 
 .feedback {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   margin-top: 1rem;
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
-  background-color: rgba(255, 255, 255, 0.15);
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #f0f0f0;
+  color: #333;
+  border: 2px solid #333;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .feedback.correct {
-  color: #a2f5a2;
+  background-color: #d1f7d1;
+  color: #237423;
+  border-color: #237423;
 }
 
 .feedback.incorrect {
-  color: #ff9999;
+  background-color: #fbdcdc;
+  color: #a52222;
+  border-color: #a52222;
 }
 
 .teacher-image {

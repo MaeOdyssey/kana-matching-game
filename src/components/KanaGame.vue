@@ -1,6 +1,6 @@
 <template>
   <div class="kana-game">
-    <h1 class="game-title">Kana Matching Game</h1>
+    <h1 class="game-title">Kitsune Sensei</h1>
 
     <div class="game-board">
       <div class="kana-question">Match the romaji: {{ current.romaji }}</div>
@@ -52,7 +52,7 @@ function handleSelection(selected: KanaOption) {
   setTimeout(() => {
     current.value = getRandomKana();
     feedback.value = "";
-  }, 1000);
+  }, 2500);
 }
 
 // Feedback class for styling
